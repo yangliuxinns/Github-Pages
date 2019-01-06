@@ -35,11 +35,12 @@ function animate(obj,json,callback){
 	}, 30)
 }
 window.onload = function(){
-	var cover = document.getElementsByClassName('pparent')[0];
+	var cover = document.getElementsByClassName('ppe')[0];
 	window.onscroll = function(){
 		var st = document.documentElement.scrollTop || document.body.scrollTop;
-		if(st>300){
+		if(st>135){
 			cover.style.position = 'fixed';
+			cover.style.top='0';
 
 		}else{
 			cover.style.position = 'static';

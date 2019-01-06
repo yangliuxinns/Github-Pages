@@ -43,29 +43,47 @@ ul,li{
 	margin-left:4px; 
 	font-weight: bold;
 }
+.ppe{
+	width:100%;
+	height:137px;
+	z-index: 1;
+}
 .parent{
 	width:100%;
-	height:145px;
+	height:137px;
+	background-color: #fff;
+	position: absolute;
+}
+.atatic{
+	width:1180px;
+	height:137px;
+	margin:0 auto;
+	position: relative;
 }
 .child1{
 	width:1180px;
 	height:45px;
 	margin: 0 auto;
+	position:relative;
 }
-.child1>a{
-	width:78px;
-	float:left;
-	margin-right: 380px;
+#ta{
 	margin-top:10px;
+	padding-right:330px; 
 	font-size:11px;
 	color: #9a9791;
 	text-decoration:none;
+	position: relative;
+}
+#head>ul{
+	width:730px;
+	position: relative;
 }
 a{
 	text-decoration:none;
 	color:#9a9791;
 }
 .child2{
+	position:relative;
 	width:1180px;
 	height:78px;
 	margin:0 auto;
@@ -73,26 +91,28 @@ a{
 	background:url(../../img/logo_03.jpg) no-repeat;
 }
 #div{
-	width:581px;
+	width:600px;
 	height:40px;
-	border:3px solid #fe6c00;
-	border-radius: 5px;
+	border-radius: 3px;
 	margin-left: 250px;
 	margin-top: 10px;
 	float:left;
 }
 .child2>div>input{
 	width:500px;
-	height:40px;
-	border:none;
+	height:39px;
+	border:3px solid #fe6c00;
+	border-radius: 3px;
 	outline:none;
 	color:#74736d;
 }
 .child2>div>button{
 	background-color: #fe6c00;
 	border:none;
+	border-radius: 3px;
+	margin-left: -7px;
 	width:76px;
-	height:40px;
+	height:45px;
 	color:#fff;
 }
 .child2>.san{
@@ -130,15 +150,14 @@ a{
 .child2>.word{
 	margin-top: 75px;
 	margin-left: 250px;
-	width:558px;
-	height:;
+	width:583px;
 }
 .child2>.word>li>a{
-	padding-right: 8px;
-	padding-left: 8px;
+	padding-right: 7px;
+	padding-left: 7px;
 	float: left;
 	border-right:1px solid #ebe7e7;
-	font-size: 11px;
+	font-size: 10px;
 	text-align: center;
 	margin:0 auto;
 	color:#82778b;
@@ -149,23 +168,21 @@ a{
 .child2>.word>.color2>a{
 	color:#aca9d3;
 }
-.child2>.word>.last{
+.child2>.word>.last>a{
 	border-right: none;
 }
 .parent2{
 	width:100%;
 	height:40px;
 	background-color: #000000;
+	margin-top: 5px;
 }
 .parent2>.cai{
 	width:1180px;
 	height:40px;
 	margin:0 auto;
 }
-.parent2>.cai ul{
-	
-	
-}
+
 .parent2>.cai>ul li{
 	width:97px;
 	text-align: center;
@@ -200,7 +217,8 @@ a{
 	padding-left: 30px;
 }
 .parent2>.cai>img{
-	float:right;
+	position: relative;
+	float: right;
 }
 .parent3{
 	width:100%;
@@ -342,9 +360,6 @@ a{
 	border:1px solid #ff9003;
 	float:left;
 }
-.boim{
-	position: absolute;
-}
 
 #bbig{
 	width:102px;
@@ -359,11 +374,11 @@ a{
 }
 #bbimg{
 	overflow: hidden;
-	position: absolute;
+	position: relative;
 	width:410px;
 	height:410px;
-	right:474.5px;
-	top:248px;
+	left:431px;
+	top:-431px;
 	border:1px solid #d0cdc7;
 	display:none;
 }
@@ -392,19 +407,22 @@ a{
 	background-color: #ff0754;
 	margin-left: 25px;
 }
-.parent3 .ztu .boim{
+.parent3 .boim{
 	width:410px;
 	height:64px;
+	margin-top: -60px;
 	margin-left: 20px;
+	position: relative;
+
 }
-.parent3 .ztu .boim #yj{
+.parent3 .boim #yj{
 	margin-left: 390px;
 }
-.parent3 .ztu .boim img{
+.parent3 .boim img{
 	float:left;
 }
 .parent3>.zhu>.you{
-	width:182px;
+	width:178px;
 	margin-left:6px;
 	float:left;
 	height:630px;
@@ -526,8 +544,8 @@ a{
 	background-color: #fff;
 	border: 4px solid #aca9d3;
 	position: fixed;
-	top:445px;
-	left:540px;
+	top:35%;
+	left:35%;
 }
 #gouou img{
 	float: right;
